@@ -1,0 +1,299 @@
+@media (max-width:1172px) and(min-width:959px) {}
+
+.education h1 {
+    width: 35%;
+}
+
+.skills h1 {
+    width: 33%;
+}
+
+#project h1 {
+    width: 33%;
+}
+
+
+
+@media (max-width:959px) {
+    .info h2 {
+        font-size: 1.4rem;
+    }
+
+    .home .text {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .education h1 {
+        width: 40%;
+    }
+
+    .skills h1 {
+        width: 35%;
+    }
+
+    #project h1 {
+        width: 35%;
+    }
+
+    .projectInfo img {
+        width: 50%;
+    }
+}
+
+@media (max-width:840px) {
+    .about {
+        height: 470px;
+    }
+
+    .about h1 {
+        width: 30%;
+    }
+
+    .education h1 {
+        width: 45%;
+    }
+
+    .skills h1 {
+        width: 40%;
+    }
+
+    #project h1 {
+        width: 40%;
+    }
+
+    .projectInfo img {
+        width: 60%;
+    }
+}
+
+
+
+@media (max-width:740px) {
+    .info .navbar .link li{
+        border-bottom: 2px solid #ede8ec;
+    }
+    .info .navbar li:hover{
+        border-bottom: 2px solid white;
+    }
+    .info .toggleBtn {
+        background: none;
+        display: block;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        font-size: 2rem;
+    }
+
+    .info li {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .link li a {
+        color: white;
+    }
+
+    .info .navbar {
+        padding-right: 20px;
+        position: relative;
+        top: 79px;
+        right: 0px;
+        display: flex;
+        width: 100%;
+        height: 200px;
+        flex-direction: row;
+        background: #0000005e;
+
+    }
+
+    .info .link {
+        display: inline-block;
+    }
+
+    .navbar link {
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+
+    .info {
+        height: 60px;
+        position: sticky;
+        z-index: 100;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .info img {
+        position: absolute;
+        top: 160px;
+        right: 35px;
+        border-radius: 126px;
+        height: 157px;
+        width: 157px;
+    }
+
+    .intro .home {
+        padding-top: 36vh;
+        height: 90vh;
+    }
+
+    .intro .text {
+        width: 99%;
+        margin-left: 0px;
+    }
+
+    .text p {
+        font-size: 14px;
+    }
+
+
+    .info h2 {
+        position: absolute;
+        top: 209px;
+        left: 20px;
+        font-size: 1.3rem;
+        color: white;
+    }
+
+
+    .info li {
+        margin-left: 28px;
+    }
+
+    .intro {
+        position: sticky;
+        width: 100vw;
+    }
+
+    .about {
+        width: 100vw;
+        height: 500px;
+        padding-top: 30px;
+    }
+
+    .education {
+        padding-top: 20px;
+    }
+
+    .education h1 {
+        width: 50%;
+    }
+
+    .skills .box {
+        margin: 10px;
+    }
+
+    .about h1 {
+        width: 35%;
+    }
+
+    #project img {
+        width: 80%;
+    }
+}
+@media (max-width:739px) and (min-width:530px){
+    .info img{
+        height: 170px;
+        width: 170px;
+        top: 154px;
+        right: 64px;
+    }
+    .info h2{
+        top: 216px;
+        left: 10%;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:400px) {
+    .info img{
+        height: 120px;
+        width: 120px;
+    }
+    .info h2 {
+        left: 15px;
+        font-size: 1rem;
+    }
+
+    .info li {
+        margin-left: 20px;
+    }
+
+    .phone {
+        justify-content: space-between;
+    }
+
+    .intro .text {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+   
+
+}
+@media (max-width:418px){
+    .container ul{
+        margin-left: 30px;
+    }
+
+}
+
+@media (max-width:290px) {
+
+
+    .info img {
+        width: 114px;
+        height: 114px;
+        top: 167px;
+        right: 10px;
+    }
+
+    .info h2 {
+        left: 10px;
+    }
+    .about h1{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .about{
+        height: 650px;
+    }
+    .education h1{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .skills h1{
+        width: 100%;
+        border-radius: 0px;
+    }
+    #project h1{
+        width: 100%;
+        border-radius: 0px;
+    }
+    #project img{
+        width: 90%;
+    }
+
+}
+
+@media (max-height:400px)  {
+    .info .navbar {
+        top: 60px;
+        padding-right: 46px;
+    }
+    .info img{
+        top: 85px;
+    right: 50px;
+    }
+    .info h2{
+        top: 156px;
+        left: 107px;
+        font-size: 2rem
+    }
+    .intro .home{
+        height: 151vh;
+        padding-top: 34%;
+    }
+}
