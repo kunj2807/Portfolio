@@ -282,7 +282,7 @@
 
 }
 
-@media (max-height:400px)  {
+@media (max-height:400px) and (max-width:740px){
     .info .navbar {
         top: 60px;
         padding-right: 46px;
@@ -298,6 +298,20 @@
     }
     .intro .home{
         height: 151vh;
-        padding-top: 34%;
+        padding-top: 20%;
     }
+}
+
+@media (max-height:400px) and (min-width:740px){
+    .info img{
+        height: 100px;
+        width: 100px;
+    }
+    .intro .home{
+        padding-top: 13%;
+    }
+    .container ul li{
+        padding: 0px 5px;
+    }
+
 }
