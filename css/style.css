@@ -1,13 +1,11 @@
-body{
-    background: black;
-}
+
 *{
     box-sizing: border-box;
     font-family: 'Bree Serif', serif;}
 .info{
     position: fixed;
     left: 20px;
-    height: 99vh;
+    height: 100vh;
     width: 25vw;
     display: flex;
     flex-direction: column;
@@ -25,14 +23,13 @@ body{
 }
 .info .navbar{
     width: 100%;
-    background-color: #f2f3f7;
     display: flex;
     flex-direction: column;
 }
 .info .link li{
     width: 45px;
     list-style: none;
-    border-bottom: 1px solid #ede8ec ;
+    border-bottom: 1px solid #f2f3f7;
     transition: all 0.5s;
 }
 .info li a{
@@ -88,9 +85,9 @@ body{
     font-size: x-large;
 }
 .intro .home{
-    padding-top: 32vh;
+    padding-top: 177px;
     background: url(../img/background1.webp) no-repeat center center/cover;
-    height: 100vh;
+    height: 580px;
 }
 .about{
     display: inline-block;
