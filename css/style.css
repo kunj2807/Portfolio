@@ -30,7 +30,7 @@
     width: 45px;
     list-style: none;
     border-bottom: 1px solid #f2f3f7;
-    transition: all 0.5s;
+    transition: all 0.8s;
 }
 .info li a{
     padding: 10px 0px;
@@ -170,5 +170,9 @@
     padding: 5px 10px;
     font-size: 2rem;
     cursor: pointer;
+}
+footer{
+    background-color: black;
+    color: white;
 }
 
