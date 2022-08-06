@@ -1,18 +1,16 @@
-
-
 @media (max-width:1172px) and(min-width:959px) {
 
-.education h1 {
-    width: 35%;
-}
+    .education h1 {
+        width: 35%;
+    }
 
-.skills h1 {
-    width: 33%;
-}
+    .skills h1 {
+        width: 33%;
+    }
 
-#project h1 {
-    width: 33%;
-}
+    #project h1 {
+        width: 33%;
+    }
 }
 
 
@@ -71,22 +69,29 @@
 }
 
 @media(min-width:740px)and (max-width:800px) {
-    .info{
+    .info {
         left: 0px;
         width: 28vw;
         height: 100vh;
     }
 
-    
+
 }
 
 @media (max-width:740px) {
-    .info .navbar .link li{
+
+    .info .navbar{
+        display: none;
+    }
+
+    .info .navbar.responsive .link li {
         border-bottom: 2px solid #ede8ec;
     }
-    .info .navbar li:hover{
+
+    .info .navbar.responsive li:hover {
         border-bottom: 2px solid white;
     }
+
     .info .toggleBtn {
         background: none;
         display: block;
@@ -105,16 +110,18 @@
         color: white;
     }
 
-    .info .navbar {
+    .info .navbar.responsive {
         padding-right: 20px;
         position: relative;
-        top: 79px;
+        top: 143px;
         right: 0px;
         display: flex;
         width: 100%;
-        height: 200px;
-        flex-direction: row;
-        background: #0000005e;
+        flex-direction: column;
+        background: #0000009c;
+        height: auto;
+        align-items: flex-start;
+
 
     }
 
@@ -205,6 +212,7 @@
         width: 80%;
     }
 }
+
 /* @media (max-width:739px) and (min-width:530px){
     .info img{
         height: 170px;
@@ -220,10 +228,11 @@
 } */
 
 @media (max-width:400px) {
-    .info img{
+    .info img {
         height: 120px;
         width: 120px;
     }
+
     .info h2 {
         left: 15px;
         font-size: 1rem;
@@ -241,11 +250,12 @@
         padding-left: 3px;
         padding-right: 3px;
     }
-   
+
 
 }
-@media (max-width:418px){
-    .container ul{
+
+@media (max-width:418px) {
+    .container ul {
         margin-left: 30px;
     }
 
@@ -264,75 +274,88 @@
     .info h2 {
         left: 10px;
     }
-    .about h1{
+
+    .about h1 {
         width: 100%;
         border-radius: 0px;
     }
-    .about{
+
+    .about {
         height: 650px;
     }
-    .education h1{
+
+    .education h1 {
         width: 100%;
         border-radius: 0px;
     }
-    .skills h1{
+
+    .skills h1 {
         width: 100%;
         border-radius: 0px;
     }
-    #project h1{
+
+    #project h1 {
         width: 100%;
         border-radius: 0px;
     }
-    #project img{
+
+    #project img {
         width: 90%;
     }
 
 }
 
-@media (max-height:400px) and (max-width:740px){
+@media (max-height:400px) and (max-width:740px) {
     .info .navbar {
-        top: 60px;
+        top: 143px;
         padding-right: 46px;
     }
-    .info img{
-    top: 128px;
-    right: 50px;
+
+    .info img {
+        top: 128px;
+        right: 50px;
     }
-    .info h2{
+
+    .info h2 {
         top: 179px;
         left: 20px;
         font-size: 1rem
     }
-    .intro .home{
+
+    .intro .home {
         height: 600px;
         padding-top: 248px;
     }
-    .about{
+
+    .about {
         height: 40px;
     }
 }
 
-@media (max-height:450px) and (min-width:740px){
-    .info img{
+@media (max-height:450px) and (min-width:740px) {
+    .info img {
         height: 80px;
         width: 80px;
     }
-    .intro .home{
+
+    .intro .home {
         padding-top: 13%;
     }
-    .intro .home{
+
+    .intro .home {
         height: 440px;
     }
+
     .info .link {
         margin: 4px 0px;
     }
-    .container ul li{
+
+    .container ul li {
         padding: 0px 5px;
     }
-    .info{
+
+    .info {
         height: 100vh;
     }
 
 }
-
-

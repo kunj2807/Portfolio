@@ -24,13 +24,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
             $(".toggleBtn").click(function(){
                     $('.navbar').slideToggle(0)
             })
         })
+    </script> -->
+    <script>
+        function toggle(){
+            var nav=document.getElementById('nav')
+            if(nav.className=='navbar'){
+                nav.className+=" responsive"
+            }
+            else{
+                nav.className='navbar'
+            }
+        }
+
     </script>
 
 </head>
@@ -39,7 +51,7 @@
     <div class="info">
         <img src="img/profiile2.jpeg" alt="">
         <h2>Kunj Gadhesariya</h2>
-        <div class="navbar">
+        <div class="navbar" id="nav">
             <div class="link">
                 <li><a href="#home">Home</a></li>
             </div>
@@ -57,7 +69,7 @@
             </div>
         </div>
         <div class="toggleBtn">
-            <button style="border:none ;"><i class="fa-solid fa-bars"></i></button>
+            <button style="border:none ; " onclick="toggle()"><i class="fa-solid fa-bars"></i></button>
         </div>
     </div>
     <div class="intro">
